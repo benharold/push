@@ -1,6 +1,13 @@
 {
     "require": {
         "monolog/monolog": "^1.19",
-        "duccio/apns-php": "^1.0"
+        "duccio/apns-php": "^1.0",
+        "vlucas/phpdotenv": "^2.2",
+        "illuminate/database": "^5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "models"
+        ]
     }
 }
